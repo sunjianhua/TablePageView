@@ -63,6 +63,15 @@
 
 [Restaurant.h](https://github.com/sunjianhua/TablePageView/blob/master/Restaurant.h)/[Restaurant.cpp](https://github.com/sunjianhua/TablePageView/blob/master/Restaurant.cpp)为使用控件的示例代码
 
-如果用Restaurant做测试，只要把代码文件加载到项目，在显示层的init()文件加下面一句：
+如果用Restaurant做测试，只要把代码文件加载到项目，在当前显示层的init()文件加下面一句：
+
 addChild(Restaurant::create());
+
 然后运行应该就看到效果了。
+
+##后续
+1. 后续会增加分组的功能，像《我叫MT》的如下操作
+
+	![image](README/j.jpg)
+
+2. 完善现有功能，但不确定时间
