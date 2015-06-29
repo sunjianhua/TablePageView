@@ -4,7 +4,7 @@
 
 在游戏中需要实现如下效果
 
-![image](image/a.png)
+![image](README/a.png)
 
 这个特征如下：
 
@@ -35,16 +35,16 @@
 ##应用
 这个在游戏中用到的地方比较多，比如类似如下界面都可实现
 
-![image](image/b.jpeg)
-![image](image/c.png)
-![image](image/d.png)
-![image](image/e.png)
-![image](image/f.png)
-![image](image/g.png)
-![image](image/h.png)
-![image](image/i.png)
-![image](image/j.png)
-![image](image/k.png)
+![image](README/b.jpeg)
+![image](README/c.png)
+![image](README/d.png)
+![image](README/e.png)
+![image](README/f.png)
+![image](README/g.png)
+![image](README/h.png)
+![image](README/i.png)
+![image](README/j.png)
+![image](README/k.png)
 
 ##代码
 ###说明
@@ -56,4 +56,8 @@
 6. 后续会完善代码，但不确定时间
 
 ###代码地址
+
+查看代码：[点这里](https://github.com/sunjianhua/TablePageView) 
+
+
 
