@@ -24,7 +24,7 @@
 本计划在TableView基础上做扩展，但是看TableView各种绕来绕去，衡量了下，如做扩展，要理顺的地方太多了，不如直接另起炉灶吧，因为TableView的设计还是不错的，在显示的时候，只根据显示区域生成有限个的TableViewCell，如果上下滑动，有数据更新，只更新已创建，但不用的TableViewCell，让它再显示就可以了，这个实现比较经济，于是仿照这个设计思路。
 
 ###具体实现看下面的视频
-<!-- <iframe frameborder="0" width="640" height="498" src="http://v.qq.com/iframe/player.html?vid=s0158tm8cmf&tiny=0&auto=0" allowfullscreen></iframe> -->
+<iframe frameborder="0" width="640" height="498" src="http://v.qq.com/iframe/player.html?vid=s0158tm8cmf&tiny=0&auto=0" allowfullscreen></iframe>
 
 ###实现说明
 1. 需求部分提到的基本都有实现
@@ -59,5 +59,10 @@
 
 查看代码：[点这里](https://github.com/sunjianhua/TablePageView) 
 
+[TablePage](https://github.com/sunjianhua/TablePageView/tree/master/TablePage)目录下为控件实现文件
 
+[Restaurant.h](https://github.com/sunjianhua/TablePageView/blob/master/Restaurant.h)/[Restaurant.cpp](https://github.com/sunjianhua/TablePageView/blob/master/Restaurant.cpp)为使用控件的示例代码
 
+如果用Restaurant做测试，只要把代码文件加载到项目，在显示层的init()文件加下面一句：
+addChild(Restaurant::create());
+然后运行应该就看到效果了。
