@@ -64,6 +64,7 @@
 [TablePage](https://github.com/sunjianhua/TablePageView/tree/master/TablePage)目录下为控件实现文件
 
 [Restaurant.h](https://github.com/sunjianhua/TablePageView/blob/master/Restaurant.h)/[Restaurant.cpp](https://github.com/sunjianhua/TablePageView/blob/master/Restaurant.cpp)为使用控件的示例代码
+
 [iphone-retina](https://github.com/sunjianhua/TablePageView/tree/master/iphone-retina)为示例用到的资源
 
 如果用Restaurant做测试，只要把代码文件加载到项目，在当前显示层的init()函数加下面一句：
