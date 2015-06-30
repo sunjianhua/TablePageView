@@ -8,7 +8,7 @@
 
 这个特征如下：
 
-1. 带标头，每个标头对应一个种类，每个种类可以有无数项，但是显示的时候每次只显示一部分，可以多行多列，也可以单行单列。
+1. 带标头，每个标头对应一个种类，每个种类可以有无数项，但是显示的时候每次只显示一部分，每次显示的这部分称为一页，一个种类可以有很多页，每页的显示可以多行多列，也可以单行单列。
 2. 能够左右翻页或上下翻页
 3. 能上下滑动或左右滑动
 4. 显示的内容可以超过显示区域，通过滑动滚动条来显示遮盖的信息
@@ -24,7 +24,7 @@
 本计划在TableView基础上做扩展，但是看TableView各种绕来绕去，衡量了下，如做扩展，要理顺的地方太多了，不如直接另起炉灶吧，因为TableView的设计还是不错的，在显示的时候，只根据显示区域生成有限个的TableViewCell，如果上下滑动，有数据更新，只更新已创建，但不用的TableViewCell，让它再显示就可以了，这个实现比较经济，于是仿照这个设计思路。
 
 ###具体实现看下面的视频
-<iframe frameborder="0" width="640" height="498" src="http://v.qq.com/iframe/player.html?vid=s0158tm8cmf&tiny=0&auto=0" allowfullscreen></iframe>
+<embed src="http://static.video.qq.com/TPout.swf?vid=s0158tm8cmf&auto=0" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
 
 ###实现说明
 1. 需求部分提到的基本都有实现
