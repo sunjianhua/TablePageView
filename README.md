@@ -23,8 +23,10 @@
 
 本计划在TableView基础上做扩展，但是看TableView各种绕来绕去，衡量了下，如做扩展，要理顺的地方太多了，不如直接另起炉灶吧，因为TableView的设计还是不错的，在显示的时候，只根据显示区域生成有限个的TableViewCell，如果上下滑动，有数据更新，只更新已创建，但不用的TableViewCell，让它再显示就可以了，这个实现比较经济，于是仿照这个设计思路。
 
-###具体实现看下面的视频
-<embed src="http://static.video.qq.com/TPout.swf?vid=s0158tm8cmf&auto=0" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+###具体实现看下面
+####[点这看演示视频](http://v.qq.com/page/s/m/f/s0158tm8cmf.html)
+####效果图
+![image](README/111.png)
 
 ###实现说明
 1. 需求部分提到的基本都有实现
